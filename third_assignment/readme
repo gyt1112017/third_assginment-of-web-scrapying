@@ -26,6 +26,7 @@ Scrapy by default uses utf-8 encoding and this is why in CSV files you don't see
 so your job is to go through this link from Scrapy's documentation(LINK) and figure out how you can force Scrapy to use UTF-8 encoding.
 
 ##Project Requirements - PART 2 - :
+
 Now this your job is to build:
 
 An item class called: QuotesItem
