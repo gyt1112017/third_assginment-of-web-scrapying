@@ -1,5 +1,8 @@
 # third_assginment-of-web-scrapying
+
 Use python spider web scrapping website automatically and get a clear json format
+
+This assginment is from https://github.com/rafikahmed/web-scraping-course.
 
 #Assignment Requirment
 
