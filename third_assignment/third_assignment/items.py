@@ -8,18 +8,6 @@ import scrapy
 from scrapy.loader.processors import TakeFirst, MapCompose, Join
 from w3lib.html import remove_tags
 
-"""
-class QuotesItem(scrapy.Item):
-    quote = scrapy.Field(
-        output_processor = TakeFirst()
-    )
-    author = scrapy.Field(
-        output_processor = TakeFirst()
-    )
-    tags = scrapy.Field(
-        output_processor = Join(';')
-    )
-"""
 def remove_quotations(value):
     return value.replace(u"\u201d", '').replace(u"\u201c", '')
 
