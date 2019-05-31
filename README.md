@@ -34,7 +34,5 @@ From each page you have to scrape: The quote;The author;The tags
 Now this your job is to build:
 
 1. An item class called: QuotesItem
-
-2 .Create 3 fields(quote, author, tags) and use input and output processors (Make sure to join the tags by ";")
-
+2. Create 3 fields(quote, author, tags) and use input and output processors (Make sure to join the tags by ";")
 3. Now in your spider class load your item class (QuotesItem) and assign values to all the fields.
