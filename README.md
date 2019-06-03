@@ -1,4 +1,4 @@
-# third_assginment-of-web-scrapying
+# web-scrapying by using python spider
 
 Use python spider web scrapping website automatically and get a clear json format
 
@@ -39,3 +39,10 @@ Now this your job is to build:
 1. An item class called: QuotesItem
 2. Create 3 fields(quote, author, tags) and use input and output processors (Make sure to join the tags by ";")
 3. Now in your spider class load your item class (QuotesItem) and assign values to all the fields.
+
+##Store the extracted data in MongoDB - PART 3 - :
+
+1. Adopt the pipelines.py
+2. Change the setting.py
+
+
