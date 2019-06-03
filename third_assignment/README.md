@@ -1,4 +1,4 @@
-<h1>Here is the answer</h1>
+# Here is the answer
 ## Preparetion
 1. Install python (3.6.5 not 3.7 version!!!) and add python path to your laptop environment path. 
    You can test it when you use cmd and type python-v in your Windows Command Prompt. 
@@ -22,7 +22,7 @@
  9. create your spider quotes.py inside the spiders folder which is inside third_assignment.
  10. finally cd spiders and then pip install pylint.
 
-<h2>Part 1 & 2</h2>: 
+# Part 1 & 2: 
 ## Change the setting.py
    add FEED_EXPORT_ENCODING = "UTF-8" in the settings.py file (change the encoding to UTF-8).
 ## Change the item.py
@@ -33,7 +33,7 @@
    control+shift+p: create terminal
    type inside the terminal: scrapy crawl quotes -o data.json
    
-<h3>Part 3</h3>:
+# Part 3:
 ## Download, install and setup MongoDB
 1. The link is here: https://www.mongodb.com/download-center/community. Choose the community server's version and OS which is suit you.
 2. add mongodb path to your system environment path (sep).
