@@ -44,7 +44,7 @@ Part 3:
  
 THE MONGODB SERVER NEEDS TO RUN IN THE BACK!!! DO NOT CLOSE IT!!!
 
-6. In Visuo Studio Code, under the virtual environment: pip install pymongo/
+6. In Visuo Studio Code, under the virtual environment: pip install pymongo.
 7. Install extension: Azure Cosmos DB (Microsoft).
 
    
