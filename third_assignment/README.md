@@ -1,5 +1,5 @@
-###Here is the answer
-### Preparetion
+<h1>Here is the answer</h1>
+## Preparetion
 1. Install python (3.6.5 not 3.7 version!!!) and add python path to your laptop environment path. 
    You can test it when you use cmd and type python-v in your Windows Command Prompt. 
    It should show your python version, otherwise you didn't add the path in your enviroment path correctly.
@@ -22,19 +22,19 @@
  9. create your spider quotes.py inside the spiders folder which is inside third_assignment.
  10. finally cd spiders and then pip install pylint.
 
-###Part 1 & 2: 
-### Change the setting.py
+<h2>Part 1 & 2</h2>: 
+## Change the setting.py
    add FEED_EXPORT_ENCODING = "UTF-8" in the settings.py file (change the encoding to UTF-8).
-### Change the item.py
+## Change the item.py
    see it in the item.py file
-### Add your quotes.py
+## Add your quotes.py
    see it in the quotes.py file
-### Run your spider:
+## Run your spider:
    control+shift+p: create terminal
    type inside the terminal: scrapy crawl quotes -o data.json
    
-###Part 3:
-### Download, install and setup MongoDB
+<h3>Part 3</h3>:
+## Download, install and setup MongoDB
 1. The link is here: https://www.mongodb.com/download-center/community. Choose the community server's version and OS which is suit you.
 2. add mongodb path to your system environment path (sep).
 3. cmd type 'mongod' (tset if you add it to your sep).
@@ -42,7 +42,7 @@
 5. type mongod --dbpath="C:"\data\db" (let mongodb knows that you want to store your data there).	
    If everything you setup correctly, you will be able to see 'waiting for connection on port 27017'.
  
-THE MONGODB SERVER NEEDS TO RUN IN THE BACK!!! DO NOT CLOSE IT!!!
+### THE MONGODB SERVER NEEDS TO RUN IN THE BACK!!! DO NOT CLOSE IT!!!
 
 6. In Visuo Studio Code, under the virtual environment: pip install pymongo.
 7. Install extension: Azure Cosmos DB (Microsoft).
