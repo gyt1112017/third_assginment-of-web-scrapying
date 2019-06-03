@@ -42,7 +42,7 @@ Now this your job is to build:
 
 ##Store the extracted data in MongoDB - PART 3 - :
 
-1. Adopt the pipelines.py
-2. Change the setting.py
+1. Adapt the pipelines.py to create a class ThirdAssignmentPipeline
+2. Change the setting.py and add mongo uri and mongo_db
 
 
